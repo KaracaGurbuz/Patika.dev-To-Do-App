@@ -65,13 +65,13 @@ function fillListDOM() {
 fillListDOM();
 
 function successToast() {
-  let toast = document.querySelector("#successToast");
+  let toast = document.querySelector(".success");
   let toastAdd = new bootstrap.Toast(toast);
   toastAdd.show();
 }
 
 function errorToast() {
-  let toast = document.querySelector("#errorToast");
+  let toast = document.querySelector(".error");
   let toastAdd = new bootstrap.Toast(toast);
   toastAdd.show();
 }
